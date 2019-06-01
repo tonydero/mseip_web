@@ -9,10 +9,9 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route("/hello/<name>/")
-def hello(name=None):
-    return render_template('test.html',name=name)
-
+@app.route("/research/")
+def research():
+    return render_template('research.html')
 
 if __name__ == "__main__":
     app.run()
