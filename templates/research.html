@@ -4,9 +4,15 @@
     Welcome to the NMSU MSEIP research page!
 </h2>
 <p>
+    <a href="{{ url_for('home') }}">Home</a>
+</p>
+<p>
     Here we present the results we have produced using anonymized student data.
 </p>
 <p>
-    WIP app
+    <img src="/static/DFW_plot_allclasses.png" alt="DFW Plot" style="width:50%;height:50%" class="center">
+</p>
+<p>
+    Figure 1: A plot of students' number of non-passing course grades vs how many semesters they were enrolled in courses for students that graduated in 2017. This shows that each course failed or withdrawn from adds roughly an extra semester before graduation.
 </p>
 {% endblock %}
